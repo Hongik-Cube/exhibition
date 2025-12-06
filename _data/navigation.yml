@@ -15,16 +15,9 @@ en: &DEFAULT_EN
       section: services
     - title: "Portfolio"
       section: portfolio
-    - title: "About"
-      section: about
-    - title: "Timeline"
-      section: timeline
-    - title: "Team"
-      section: team
-    - title: "Contact"
-      section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    - title: "Team Work"
+      section: teamwork
+
 
 en-001: #English (World)
   <<: *DEFAULT_EN
@@ -241,6 +234,8 @@ es: &DEFAULT_ES
       section: servicios
     - title: "Portafolio"
       section: portafolio
+    - title: "Trabajo en equipo"
+      section: teamwork
     - title: "Sobre Nosotros"
       section: nosotros
     - title: "Cronología"
@@ -249,8 +244,7 @@ es: &DEFAULT_ES
       section: equipo
     - title: "Contáctenos"
       section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    # removed theme source link
 
 es-419: #Spanish (Latin America and the Caribbean)
   <<: *DEFAULT_ES
@@ -313,6 +307,8 @@ de: &DEFAULT_DE
       section: Leistungen
     - title: "Portfolio"
       section: Portfolio
+    - title: "Team Work"
+      section: teamwork
     - title: "Über uns"
       section: Ueber
     - title: "Geschichte"
@@ -321,8 +317,7 @@ de: &DEFAULT_DE
       section: Team
     - title: "Kontakt"
       section: Kontakt
-    - title: "Quellcode des Themas"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    # removed theme source link
 
 de-AT: #German (Austria)
   <<: *DEFAULT_DE
