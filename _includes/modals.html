@@ -1,9 +1,11 @@
 <!-- Portfolio Modals -->
-{% for project in site.portfolio %}
+{% assign projects = site[include.collection] | default: site.portfolio %}
+{% assign prefix = include.prefix | default: "p" %}
+{% for project in projects %}
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <div
   class="portfolio-modal modal fade"
-  id="p{{ forloop.index }}"
+  id="{{ prefix }}{{ forloop.index }}"
   tabindex="-1"
   role="dialog"
   aria-hidden="true"
@@ -47,7 +49,7 @@
 {% else %}
 <div
   class="portfolio-modal modal fade"
-  id="p{{ forloop.index }}"
+  id="{{ prefix }}{{ forloop.index }}"
   tabindex="-1"
   role="dialog"
   aria-hidden="true"
