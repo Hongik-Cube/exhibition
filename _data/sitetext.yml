@@ -39,10 +39,10 @@ en: &DEFAULT_EN
 
   teamwork:
     title: "Team Work"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
+    text: "팀팀팀"
+    section: teamwork
     closebutton: "Close Project"
-    
+
   timeline:
     title: "Timeline"
     text: "Lorem ipsum timeline"
