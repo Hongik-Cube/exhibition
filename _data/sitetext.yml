@@ -32,13 +32,13 @@ en: &DEFAULT_EN
         icon: fab fa-markdown
 
   portfolio:
-    title: "개인작품"
+    title: "Personal Projects"
     text: ""
     section: personal
     closebutton: "Close Project"
 
   teamwork:
-    title: "팀 프로젝트"
+    title: "Team Projects"
     text: ""
     section: teamwork
     closebutton: "Close Project"
