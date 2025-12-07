@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: Falling on the Air Riders
-  subtitle: 김재윤(2)
+  subtitle: 김재윤 (2)
   thumbnail: "assets/img/thumbnail/Falling on the Air Riders - 김재윤 2학년.jpg"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M6IqXSOs7iA?si=3ndhkQ8VNqS4H7Q0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

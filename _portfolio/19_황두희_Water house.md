@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: Water house
-  subtitle: 황두희(1)
+  subtitle: 황두희 (1)
   thumbnail: "assets/img/personal/황두희_1학년_C595179_water house.jpg"
 ---
 ![image](assets/img/personal/황두희_1학년_C595179_water house.jpg)

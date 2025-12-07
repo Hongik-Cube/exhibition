@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: Witness
-  subtitle: 서지원(1)
+  subtitle: 서지원 (1)
   thumbnail: "assets/img/personal/서지원_1학년_C576038_witness.jpg"
 ---
 ![image](assets/img/personal/서지원_1학년_C576038_witness.jpg)

@@ -30,7 +30,7 @@ def build_front_matter(title: str, name: str, grade: str, thumbnail_web_path: st
     YAML front matter 생성.
     caption.title / caption.subtitle / caption.thumbnail 채움.
     """
-    caption_subtitle = f"{name}({grade})" if grade else name
+    caption_subtitle = f"{name} ({grade})" if grade else name
 
     front_matter_lines = [
         "---",

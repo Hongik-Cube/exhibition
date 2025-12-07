@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: Livingroom_Practice
-  subtitle: 안지후(1)
+  subtitle: 안지후 (1)
   thumbnail: "assets/img/personal/안지후_1학년_C593176_Livingroom Practice.png"
 ---
 ![image](assets/img/personal/안지후_1학년_C593176_Livingroom Practice.png)

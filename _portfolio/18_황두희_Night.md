@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: Night
-  subtitle: 황두희(1)
+  subtitle: 황두희 (1)
   thumbnail: "assets/img/personal/황두희_1학년_C595179_night.jpg"
 ---
 ![image](assets/img/personal/황두희_1학년_C595179_night.jpg)

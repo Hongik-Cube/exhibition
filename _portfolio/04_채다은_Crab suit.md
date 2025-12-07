@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: Crab suit
-  subtitle: 채다은(2)
+  subtitle: 채다은 (2)
   thumbnail: "assets/img/thumbnail/Crabsuit - 채다은 2학년.jpg"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oR9235tTWzg?si=xGiImgLh-7DWjCrF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

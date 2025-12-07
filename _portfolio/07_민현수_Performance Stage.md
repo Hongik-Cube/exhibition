@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: Performance Stage
-  subtitle: 민현수(1)
+  subtitle: 민현수 (1)
   thumbnail: "assets/img/personal/민현수_1학년_C576026_Performance Stage.png"
 ---
 ![image](assets/img/personal/민현수_1학년_C576026_Performance Stage.png)

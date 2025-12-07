@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: MAD HATTER
-  subtitle: 채다은(2)
+  subtitle: 채다은 (2)
   thumbnail: "assets/img/personal/채다은_2학년_C476076_MAD HATTER.jpg"
 ---
 ![image](assets/img/personal/채다은_2학년_C476076_MAD HATTER.jpg)
