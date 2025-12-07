@@ -1,12 +1,12 @@
 ---
 title: Beige
-subtitle: 김서진(2)
+subtitle: 
 image: 
 alt: 
 
 caption:
   title: Beige
-  subtitle: 
+  subtitle: 김서진(2)
   thumbnail: "assets/img/personal/김서진_2학년_C493050_Beige.jpg"
 ---
 ![image](assets/img/personal/김서진_2학년_C493050_Beige.jpg)
