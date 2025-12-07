@@ -154,7 +154,10 @@ def main() -> None:
 
     with CSV_PATH.open("r", encoding=CSV_ENCODING, newline="") as csv_file:
         reader = csv.reader(csv_file)
-        for row in reader:
+        for index, row in enumerate(reader):
+            if index == 0:
+                # 헤더 스킵
+                continue
             # 빈 줄 스킵
             if not row or all(not (cell or "").strip() for cell in row):
                 continue
