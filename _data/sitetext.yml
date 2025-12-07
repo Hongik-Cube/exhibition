@@ -161,7 +161,7 @@ en: &DEFAULT_EN
       #   icon: "fab fa-linkedin-in"
       # - url: https://github.com/raviriley/agency-jekyll-theme
       #   icon: "fab fa-github"
-      - url: https://instagram.com
+      - url: https://www.instagram.com/hongik_cube/
         icon: "fab fa-instagram"
 
 en-001: #English (World)
