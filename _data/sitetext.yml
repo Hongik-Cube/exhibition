@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title:
     text: 
     button: 
-    buttonlink: "#personal"
+    buttonlink: "#portfolio"
 
   services:
     title: "Services"
@@ -34,7 +34,7 @@ en: &DEFAULT_EN
   portfolio:
     title: "Personal Projects"
     text: ""
-    section: personal
+    section: portfolio
     closebutton: "Close Project"
 
   teamwork:
@@ -396,9 +396,9 @@ es: &DEFAULT_ES
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portafolio"
+    title: "portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
+    section: portfolio
     closebutton: "Cerrar Proyecto"
 
   timeline:

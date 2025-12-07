@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   nav:
     - title: "Personal"
-      section: personal
+      section: portfolio
     - title: "Team Project"
       section: teamwork
 
@@ -230,8 +230,8 @@ es: &DEFAULT_ES
   nav:
     - title: "Servicios"
       section: servicios
-    - title: "Portafolio"
-      section: portafolio
+    - title: "portfolio"
+      section: portfolio
     - title: "Trabajo en equipo"
       section: teamwork
     - title: "Sobre Nosotros"
