@@ -11,8 +11,6 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      section: services
     - title: "Personal"
       section: personal
     - title: "Team Project"
