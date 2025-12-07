@@ -1,7 +1,7 @@
 ---
 title: Beige
 subtitle: 
-image: 
+image:
 alt: 
 
 caption:
