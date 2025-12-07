@@ -138,3 +138,27 @@
     }
   }
 }
+
+/* Stronger modal layout rules to prevent collapsed single-column rendering */
+.portfolio-modal {
+  .modal-dialog {
+    margin: 1rem auto !important;
+    max-width: 100vw !important;
+    width: auto !important;
+    display: block !important;
+  }
+  .modal-content {
+    padding: 100px 0 !important;
+    text-align: center !important;
+    display: block !important;
+    width: auto !important;
+    background-color: $white !important;
+  }
+  .modal-body img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
