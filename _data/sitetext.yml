@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Exhibition!
-    text: 2025 2nd Cube Exhibition
+    title:
+    text: 
     button: Go
     buttonlink: "#personal"
 
