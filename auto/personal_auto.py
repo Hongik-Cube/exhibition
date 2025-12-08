@@ -1,6 +1,7 @@
 from pathlib import Path
 from typing import Optional, List, Tuple
 import csv
+import re
 
 # ======= 설정값 (여기만 수정해서 사용) =======
 CSV_PATH = Path(r"D:\code\exhibition\auto\personal.csv")   # csv 파일 경로
@@ -62,15 +63,21 @@ def build_body(
     """
     lines: List[str] = []
 
+    # iframe 속성 정리 함수: width/height 속성 제거
+    def _sanitize_iframe(html: str) -> str:
+        # remove width="..." or width='...' or width=123 (and height)
+        return re.sub(r"\s*(width|height)\s*=\s*(\".*?\"|'.*?'|[^\s>]+)", "", html, flags=re.IGNORECASE)
+
     # 내용(사진/영상) 출력
     for raw in content_cells:
         cell = (raw or "").strip()
         if not cell:
             continue
 
-        # iframe(영상)인 경우
-        if cell.startswith("<iframe"):
-            lines.append(cell)
+        # iframe(영상)인 경우 (대소문자/선행공백 허용)
+        if cell.lstrip().lower().startswith("<iframe"):
+            cleaned = _sanitize_iframe(cell)
+            lines.append(cleaned)
         else:
             # 이미지 경로인 경우
             image_web_path = normalize_web_path(cell)
